@@ -28,7 +28,7 @@ public class CarScript : MonoBehaviour
 
     }
 
-    public void CheckDirectionAvailable(Vector3 dir) // Controls if direction available
+    public void CheckDirectionAvailable(Vector3 dir) // Check if direction available
     {
         if (dir == Vector3.right || dir == Vector3.left)
         {
@@ -83,7 +83,7 @@ public class CarScript : MonoBehaviour
 
                 break;
 
-            case MoveStates.MoveToRoad: // To ther road
+            case MoveStates.MoveToRoad: // To the road
 
                 transform.position += moveDirection * Time.deltaTime * moveSpeed;
 
@@ -105,7 +105,7 @@ public class CarScript : MonoBehaviour
                 }
                 break;
 
-            case MoveStates.MoveOnRoad: // On road, to the anothe road
+            case MoveStates.MoveOnRoad: // On road, to the another road
 
                 transform.position = Vector3.MoveTowards(transform.position, moveTarget, Time.deltaTime * moveSpeed);
 
