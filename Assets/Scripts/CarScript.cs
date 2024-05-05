@@ -39,6 +39,8 @@ public class CarScript : MonoBehaviour
         {
             Debug.Log("DIR OK" + dir);
 
+            isCarReverse = false;
+
             if (-dir == this.transform.right) // If the swipe direction != car direction
             {
                 Debug.Log("DIR REV");
