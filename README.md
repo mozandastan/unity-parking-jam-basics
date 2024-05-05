@@ -2,6 +2,8 @@
 
 This project is a small demo of a Unity game inspired by the "Parking Jam" concept. It is developed as a exercise for Unity basics.
 
+https://github.com/mozandastan/unity-parking-jam-basics/assets/151640771/d26953c9-5fae-4045-89a1-1b268fcf44a4
+
 ## Getting Started
 
 To run this demo, follow these steps:
